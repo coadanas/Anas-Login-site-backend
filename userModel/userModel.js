@@ -2,8 +2,8 @@ const mongoose = require("mongoose");
 const JWT = require("jsonwebtoken")
 require('dotenv').config();
 
-const secretKey = process.env.JWT_SECRET
-const db_url = process.env.MONGODB_URL;
+const secretKey = "HELLOANASHOWAREYOU";
+const db_url = "mongodb+srv://anas:anas@food.t6wubmw.mongodb.net/foodApp?retryWrites=true&w=majority&appName=food";
 
 mongoose.connect(db_url)
   .then((db) => {
