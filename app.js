@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 // CORS CROS
 const cors = require("cors");
 var corsOptions = {
-    origin: "http://localhost:5173",
+    origin: "https://anas-login-site.onrender.com",
     optionsSuccessStatus: 200
 };
 app.use(cors(corsOptions));
