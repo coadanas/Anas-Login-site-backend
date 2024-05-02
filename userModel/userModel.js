@@ -5,7 +5,7 @@ require('dotenv').config();
 const secretKey = "HELLOANASHOWAREYOU";
 const db_url = "mongodb+srv://anas:anas@food.t6wubmw.mongodb.net/foodApp?retryWrites=true&w=majority&appName=food";
 
-mongoose.connect(db_url)
+mongoose.connect(`mongodb+srv://anas:anas@food.t6wubmw.mongodb.net/foodApp?retryWrites=true&w=majority&appName=food`)
   .then((db) => {
     console.log("Database connected");
   })
